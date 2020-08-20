@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+/* 超链接初始化 */
+
+a,
+a:active,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+ /* 头部内容 */
+        
+ .topContent {
+    font-size: 12px;
+    color: #333;
+}
+/*logo的父级样式  */
+
+.topContent .cus-header {
+    /*  */
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    /*  */
+    /* 行高为1 的意思是根据元素本身的大小来设定 */
+    /* 类似于100% */
+    line-height: 1;
+    height: 38.4px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.topContent .cus-header .head_center {
+    color: #333;
+    padding: 0;
+    line-height: 1;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    border: 0;
+    position: relative;
+    font-size: 0;
+    max-width: 960px;
+}
+
+.topContent .cus-header .logo {
+    color: #333;
+    line-height: 1;
+    height: 100%;
+    text-align: left;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+.topContent .cus-header .logo img {
+    color: #333;
+    text-align: left;
+    font-size: 0;
+    border: 0;
+    margin-left: 4px;
+    height: 19.2px!important;
+    float: none;
+}
+
+
+
+
+
+/* 底部内容 */
+ /* 底部内容 */
+ .cus-footer{
+    height: 90px;
+    min-height: 66px;
+    background: #f2f2f2;
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+    align-items:baseline;
+    position: absolute;
+    text-align: center;
+}
+.cus-footer .ft{
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.cus-footer .ft .hylink{
+    line-height: 16px;
+    height: 16px;
+    margin: 10px 0;
+}
+.cus-footer .ft .hylink a{
+    font-size: 12px;
+    padding: 0 8px;
+}
+.cus-footer .ft .hylink em{
+    font-weight: normal;
+    font-style: normal;
+}

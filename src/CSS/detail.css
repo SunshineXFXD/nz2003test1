@@ -1,0 +1,331 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+a,a:active,a:hover{
+    text-decoration: none;
+    /* color: black; */
+}
+
+  /*  */
+  .content{
+      margin-top: 70px;
+      width: 100%;
+      height: 100%;
+      background-color: #f5f5f5;
+  }
+
+  .list-item {
+    background-color: white;
+  }
+
+
+  .panel {
+    
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-color: #ddd;
+  }
+  .panel-heading{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+  }
+
+  .panel-body{
+    color: #333;
+    padding: 15px;
+  }
+  .media{
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .media-left{
+  
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: top;
+    font-size: 0;
+  }
+  .media-left a{
+    display: block;
+    /* margin: 10px; */
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  .media-left img{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: block;
+     
+  }
+  /* 遮盖层 */
+  .media-left a .mask{
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0,0.3);
+    position:absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+
+  /* 放大的区域 */
+.glass{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  display: none;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.glass img{
+  display: block;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+}
+
+
+
+
+  /*  */
+  .media-body{
+    overflow: hidden;
+    zoom: 1;
+    width: 10000px;
+    display: table-cell;
+    vertical-align: top;
+  }
+  .media-heading{
+    margin-top: 10px;
+    line-height: 1.1;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .price{
+   
+    margin:  10px;
+    font-size: 20px;
+    color: red;
+  
+  }
+  .price span{
+      padding: 4px;
+      background-color: rgba(0,0,0,.05);
+      border-radius: 6px;
+      font-weight: 600;
+      margin-top: 4px;
+  }
+
+  .btn-group{
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .btn-default{
+    
+    overflow: visible;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    position: relative;
+    float: left;
+    margin-left: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; 
+  }
+
+  .btn-buy{
+    margin-top: 20px;
+    position: relative;
+  }
+  .btn-warning{
+    
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+  .btn-danger{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+  .cart{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #bd00fe;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow:0 0 14px #bd00fe;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    font-weight: bolder;
+    color: white;
+  }
+  .cart span:nth-child(1){
+    font-size: 16px;
+    color:skyblue;
+  }
+  .cart span:nth-child(2){
+    font-size: 16px;
+    color:rgb(135, 235, 177);
+  }
+
+
+  /*  */
+
+.nav{
+       
+    color: #333;
+
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+ }
+.nav li{
+    font-size: 10px;
+    line-height: 1.42857143;
+    color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: block;
+    float: left;
+    margin-bottom: -1px;
+}
+.nav li a{
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.active{
+    background-color:#ccc;
+}
+.nav li a:hover{
+    color: #555;
+    cursor: default;
+    background-color:#ccc;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    font-weight: bold;
+}
+.lazyimg img{
+    width: 100%;
+}
+
+
+/*  */
+#addToCart:hover { 
+  color: #fff; 
+  background-color: deeppink; 
+} 
+
+#shopCart { 
+  position: fixed; 
+  right: 0; 
+  top: 200px; 
+  color: red; 
+} 
+#shopNum{
+  width: 60px;
+  height: 25px;
+  background: deeppink;
+  color:black;
+  text-align: center;
+  line-he0ight: 25px;
+}
+.active{
+  width: 25px;
+  height: 25px;
+  background: skyblue;
+  position: absolute;
+}

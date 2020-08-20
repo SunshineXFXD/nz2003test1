@@ -1,0 +1,294 @@
+        /* 中间文字内容 */
+        /* 中间文字内容 */
+        /* 中间文字内容 */
+        
+        .hwid-root {
+            /*  */
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            color: #191919;
+            z-index: 99;
+            /*  */
+            /* 透明 */
+            background-color: transparent;
+        }
+        
+        .hwid-root .hwid-login-root {
+            /*  */
+            font-size: 12px;
+            color: #191919;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            box-sizing: content-box;
+            /*  */
+            width: 100%;
+            /* 最小高度 */
+            min-height: 560px;
+            background: #fff;
+        }
+        
+        .hwid-root .hwid-login-root.hwid-container {
+            /*  */
+            font-size: 12px;
+            color: #191919;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            box-sizing: content-box;
+            /*  */
+            /* 最小高度 */
+            min-height: 480px;
+            position: relative;
+            /* 居中 */
+            text-align: center;
+        }
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-title {
+            /*  */
+            color: #191919;
+            /* 水平居中 */
+            text-align: center;
+            margin: 0;
+            line-height: 1;
+            box-sizing: content-box;
+            /*  */
+            /* 设置字体大小 */
+            font-size: 25.6px;
+            /* 设置内边距 使span的字居中 */
+            padding: 80px 0 64px;
+        }
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-title span {
+            color: #191919;
+            font-size: 25.6px;
+            /* 设置行内块元素 */
+            display: inline-block;
+            /* 设置行高为130% */
+            line-height: 1.3;
+            /* 文字为靠右 */
+            text-align: left;
+        }
+        /* 中间的文字内容 */
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-txt {
+            font-size: 12px;
+            color: #191919;
+            /*  */
+            text-align: center;
+            /*  */
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            box-sizing: content-box;
+        }
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-txt .hwid-left {
+            /*  */
+            font-size: 12px;
+            color: #191919;
+            text-align: center;
+            line-height: 1;
+            /*  */
+            /*  */
+            display: inline-block;
+            width: 288px;
+            vertical-align: top;
+            margin-right: auto;
+        }
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-txt .hwid-left .hwid-qrcode-img {
+            /*  */
+            font-size: 12px;
+            color: #191919;
+            text-align: center;
+            margin: 0;
+            line-height: 1;
+            box-sizing: content-box;
+            /*  */
+            /*  */
+            width: 128px;
+            height: 128px;
+            display: inline-block;
+            /* 内填充 */
+            padding: 16px;
+            /* 二维码的背景 */
+            background: #F7F7F7;
+            /* 设置四个角的圆角 */
+            border-radius: 6.4px;
+        }
+        
+        .hwid-qrcode-img canvas {
+            font-size: 12px;
+            color: #191919;
+            text-align: center;
+            line-height: 1;
+            display: none;
+        }
+        
+        .hwid-qrcode-img img {
+            font-size: 12px;
+            color: #191919;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            box-sizing: content-box;
+            border: 0;
+            display: block;
+        }
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-qrcode-desc {
+            margin-top: 40px;
+            /*  */
+            text-align: center;
+            color: #838383;
+            line-height: 17.6px;
+        }
+        
+        .hwid-root .hwid-login-root .hwid-container .hwid-text-container {
+            font-size: 12px;
+            color: #838383;
+            display: inline-block;
+            line-height: 1.3;
+            text-align: left;
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwod-line{
+            width: 1px;
+            height: 240px;
+            background: rgba(0, 0, 0, 0.1);
+            /* 不加行内块会不显示 */
+            display: inline-block;
+            /* 左右外边距 */
+            margin: 0 40px;
+
+        }
+        /* 右边内容 */
+        .hwid-root .hwid-login-root .hwid-container .hwid-right{
+            /*  */
+            font-size: 12px;
+            color: #191919;
+            line-height: 1;
+            display: inline-block;
+            vertical-align: top;
+            /*  */
+            width: 288px;
+            margin-top: 0;
+            text-align: left;
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin{
+            font-size: 12px;
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin .hwid-input-msg-error{
+
+            font-size: 11px;
+            color: #fa2a2d;
+            position: relative;
+            margin: 0;
+            
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin .errorDiv{
+           
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+            position: absolute;
+            width: 100%;
+            bottom: 3.2px;
+            
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin .hwid-input-id{
+   
+            position: relative;
+            border: 1px solid transparent;
+            border-radius: 6.4px;
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin   input{
+            height: 38px;
+            width: 100%;
+            display: inline-block;
+            outline: none;
+            border: none;
+            /*  */
+            padding: 0 12.8px;
+            border-radius: 6.4px;
+            background: rgba(0, 0, 0, 0.05);
+            caret-color:#007dff;
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin   input:focus{
+            border: 1px solid #007dff;
+        }
+
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin .hwid-input-pwd{
+            margin-top: 40.8px;
+        }
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin .hwid-smslogin{
+            display: inline-block;
+            padding-top: 12.8px;
+           text-align: left;
+           font-size: 12px;
+           color: #00b1ff;
+           cursor: pointer;
+           text-decoration: none;
+        }
+
+        .hwid-root .hwid-login-root .hwid-container .hwid-right .hwid-pwdlogin .hwid-submit{
+            text-align: center;
+            line-height: 1.3;
+            padding: 0 12px ;
+            border: none;
+            background: #007dff;
+            /* 设置透明度 */
+            opacity: .4;
+            border-radius: 6.4px;
+            /* 移入小手 */
+            cursor: pointer;
+            min-width: 174.px;
+            font-size: 14.4px;
+            color: #fff;
+            font-weight: 700;
+            margin-top: 32px;
+            padding: 9.6px 24px;
+        }
+
+        .hwid-full-link{
+            padding-top: 32px;
+            /* 设置弹性盒 */
+            display: flex;  
+            /* 水平居中 */
+            justify-content: center;
+            /* 垂直方向 基准线 */
+            align-items: baseline;
+            /* font-size: 0; */
+            text-align: center;
+            padding-top: 32px;
+            color: #007dff;
+           
+        }
+
+        
+        .hwid-link{
+            padding: 0 12px;
+            cursor: pointer;
+        }
+        .hwid-forget{
+            padding: 0 12px;
+            border-left: 1px solid gray;
+            cursor: pointer;
+        }
+        .hwid-more{
+            padding: 0 12px;
+            border-left: 1px solid gray;
+            cursor: pointer;
+        }
+        .hwid-third-login-list{
+            padding:24px 0 32px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: #007dff;
+            cursor: pointer;
+        }
+      
